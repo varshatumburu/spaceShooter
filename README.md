@@ -99,7 +99,7 @@ $ ## navigate to the unzipped file and change the file permissions for the execu
 
 This will unzip the file on your `Desktop`, you can replace it with the directory of your choice
 
-**NOTE** : If it gives you an error, you probably don't have `unzip` installed in your system.
+**NOTE** : If it gives you an error, you probably do not  have an  `unzip` installed in your system.
 
 ```bash
 $ sudo apt-get install unzip
