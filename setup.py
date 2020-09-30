@@ -14,6 +14,7 @@ if sys.platform == "win32":
 
 pygame_py_file = os.path.join('spaceshooter', 'spaceShooter.py')
 
+## more comments to write here:)
 ## The image and sound files are added manually into the zip file
 ## A fix for this would be released
 ## Fix not released yet. Please wait.
