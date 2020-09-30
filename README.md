@@ -148,7 +148,7 @@ $ python spaceShooter.py
 You have to build from source to get it up and running on `OS X`. Reason?
 I don't have an `OS X` system to build the executable! So I would love for a Pull request on that one.
 
-Building from source will do the trick though
+Building from source will do the trick though.
 
 
 ```bash
