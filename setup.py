@@ -7,6 +7,7 @@ build_exe_options = {"packages": ["os", "pygame"]}
 
 # GUI applications require a different base on Windows (the default is for a
 # console application).
+# This is comment 2:)
 base = None
 if sys.platform == "win32":
     base = "Win32GUI"
