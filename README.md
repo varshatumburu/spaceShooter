@@ -6,7 +6,7 @@ The classic Retro Game recreated using `Pygame` and `python`.
 <a href="https://www.producthunt.com/posts/space-shooter"><img src="https://raw.githubusercontent.com/wingify/across-tabs/master/images/product_hunt.png" width="100" height="20"/></a>
 
 
-## Index 
+## Index A
 
 - [Demo](https://github.com/tasdikrahman/spaceShooter#demo)
   - [Screenshots](https://github.com/tasdikrahman/spaceShooter#screenshots)
