@@ -49,9 +49,9 @@ Follow the youtube video to see how I fared on ``spaceShooter``
 - Health bar for the space ship
 - Score board to show how you are faring so far
 - Power ups like
-  - shield: increases the space ships life
+  - shield: increases the space ships life.
   - bolt: increases the shooting capability of the ship by firing 2 to 3 bullets instead of one at time.
-- Custom sounds and sprite animation for things like
+- Custom sounds and sprite animation for things like -
   - 1. meteorite explosion
   - 2. bullet shoots
   - 3. player explosion
@@ -85,7 +85,7 @@ Follow the youtube video to see how I fared on ``spaceShooter``
 - :arrow_down: [Download the latest zip file for linux](https://github.com/tasdikrahman/spaceShooter/releases/latest)
 - Unzip the file
 
-If your download was saved on the `~/Downloads` folder
+If your download was saved to the `~/Downloads` folder
 
 Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the shell if you are on `GNU/Linux` based systems and type
 
