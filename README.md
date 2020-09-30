@@ -52,9 +52,9 @@ Follow the youtube video to see how I fared on ``spaceShooter``
   - shield: increases the space ships life
   - bolt: increases the shooting capability of the ship by firing 2 to 3 bullets instead of one at time.
 - Custom sounds and sprite animation for things like
-  - meteorite explosion
-  - bullet shoots
-  - player explosion
+  - 1. meteorite explosion
+  - 2. bullet shoots
+  - 3. player explosion
 - 3 lives per game
 - Fun to play :)
 
