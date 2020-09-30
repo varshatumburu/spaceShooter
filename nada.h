@@ -5,7 +5,7 @@
 class boocrap
 {
     public:
-        boocrap();
+        boocrap() ;
 
 };
 
