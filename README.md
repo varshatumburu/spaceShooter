@@ -231,7 +231,7 @@ License for them is in `Public Domain`
 
 [[Back to top]](https://github.com/tasdikrahman/spaceShooter#index)
 
-If you have found my little bits of software being of any use to you, do consider helping me pay my internet bills :)
+If you have found my little bits of software being of any use to you, do consider helping me pay my internet bills please :)
 
 | PayPal | <a href="https://paypal.me/tasdik" target="_blank"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="Donate via PayPal!" title="Donate via PayPal!" /></a> |
 |:-------------------------------------------:|:-------------------------------------------------------------:|
