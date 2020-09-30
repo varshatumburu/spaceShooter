@@ -30,7 +30,7 @@ The classic retro game recreated using `Pygame` and `python`.
 
 [[Back to top]](https://github.com/tasdikrahman/spaceShooter#index)
 
-follow the Youtube video to see How I fared on ``spaceShooter``
+follow the Youtube video to see How I fared on ``spaceShooter`` a b c d
 
 [![Space Shooter Demo - Youtube](http://i.imgur.com/bHjlJfG.jpg)](https://www.youtube.com/watch?v=o99zpLsM-ZI)
 
