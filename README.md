@@ -49,12 +49,12 @@ Follow the youtube video to see how I fared on ``spaceShooter``
 - Health bar for the space ship
 - Score board to show how you are faring so far
 - Power ups like
-  - shield: increases the space ships life
+  - shield: increases the space ships life.
   - bolt: increases the shooting capability of the ship by firing 2 to 3 bullets instead of one at time.
-- Custom sounds and sprite animation for things like
-  - meteorite explosion
-  - bullet shoots
-  - player explosion
+- Custom sounds and sprite animation for things like -
+  - 1. meteorite explosion
+  - 2. bullet shoots
+  - 3. player explosion
 - 3 lives per game
 - Fun to play :)
 
@@ -85,7 +85,7 @@ Follow the youtube video to see how I fared on ``spaceShooter``
 - :arrow_down: [Download the latest zip file for linux](https://github.com/tasdikrahman/spaceShooter/releases/latest)
 - Unzip the file
 
-If your download was saved on the `~/Downloads` folder
+If your download was saved to the `~/Downloads` folder
 
 Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the shell if you are on `GNU/Linux` based systems and type
 
@@ -99,7 +99,7 @@ $ ## navigate to the unzipped file and change the file permissions for the execu
 
 This will unzip the file on your `Desktop`, you can replace it with the directory of your choice
 
-**NOTE** : If it gives you an error, you probably don't have `unzip` installed in your system.
+**NOTE** : If it gives you an error, you probably do not  have an  `unzip` installed in your system.
 
 ```bash
 $ sudo apt-get install unzip
