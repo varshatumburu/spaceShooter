@@ -6,7 +6,7 @@ The classic retro game recreated using `Pygame` and `python`.
 <a href="https://www.producthunt.com/posts/space-shooter"><img src="https://raw.githubusercontent.com/wingify/across-tabs/master/images/product_hunt.png" width="100" height="20"/></a>
 
 
-## Index
+## Index a b 
 
 - [Demo](https://github.com/tasdikrahman/spaceShooter#demo)
   - [Screenshots](https://github.com/tasdikrahman/spaceShooter#screenshots)
@@ -30,7 +30,7 @@ The classic retro game recreated using `Pygame` and `python`.
 
 [[Back to top]](https://github.com/tasdikrahman/spaceShooter#index)
 
-Follow the youtube video to see how I fared on ``spaceShooter``
+follow the Youtube video to see How I fared on ``spaceShooter`` a b c d
 
 [![Space Shooter Demo - Youtube](http://i.imgur.com/bHjlJfG.jpg)](https://www.youtube.com/watch?v=o99zpLsM-ZI)
 
@@ -231,7 +231,7 @@ License for them is in `Public Domain`
 
 [[Back to top]](https://github.com/tasdikrahman/spaceShooter#index)
 
-If you have found my little bits of software being of any use to you, do consider helping me pay my internet bills :)
+If you have found my little bits of software being of any use to you, do consider helping me pay my internet bills please :)
 
 | PayPal | <a href="https://paypal.me/tasdik" target="_blank"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" alt="Donate via PayPal!" title="Donate via PayPal!" /></a> |
 |:-------------------------------------------:|:-------------------------------------------------------------:|
