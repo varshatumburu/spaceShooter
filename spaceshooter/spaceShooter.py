@@ -12,6 +12,7 @@
 
 ## Game music Attribution
 ##Frozen Jam by tgfcoder <https://twitter.com/tgfcoder> licensed under CC-BY-3 <http://creativecommons.org/licenses/by/3.0/>
+## No music used in the game belongs to the coders for this project. It is solely accredited to the people who made it.
 
 ## Additional assets by: Branden M. Ardelean (Github: @bardlean86)
 
