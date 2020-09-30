@@ -9,6 +9,7 @@
 # @Last Modified by:   Dic3
 # @Last Modified time: 2016-10-16
 # MIT License. You can find a copy of the License @ http://prodicus.mit-license.org
+# This file has been designed under license. Kindly note.
 
 ## Game music Attribution
 ##Frozen Jam by tgfcoder <https://twitter.com/tgfcoder> licensed under CC-BY-3 <http://creativecommons.org/licenses/by/3.0/>
