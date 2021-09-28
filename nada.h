@@ -4,6 +4,7 @@
 
 class boocrap
 {
+    int lol;
     public:
         boocrap() ;
 
