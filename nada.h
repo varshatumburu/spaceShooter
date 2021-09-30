@@ -5,7 +5,7 @@
 // hello my pr1
 class boocrap
 {
-    int lol;
+    int lol; // this is funny, lol
     public:
         boocrap() ;
 
@@ -19,7 +19,7 @@ class boocrap
 
 class Student {
     int roll;
-    vector<string> subjects;
+    vector<string> subjects; // a vector array of strings of subjects
     public:
     void printSubjects() {
         for (auto x: subjects) {
