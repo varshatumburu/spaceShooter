@@ -13,6 +13,10 @@ huehue::huehue() {
       cout << "Hue hue" << endl;
 }
 
+creator::creator() {
+      cout << "This is the creator space." << endl;
+}
+
 int main() {
       cout << "Hello there." << endl;
       cout << "Are you a banana?" << endl;
