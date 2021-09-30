@@ -8,3 +8,7 @@ boocrap::boocrap()
 {
       cout<<"I am  a banana"<<endl;
 }
+
+int main() {
+      cout << "Hello there." << endl;
+}
