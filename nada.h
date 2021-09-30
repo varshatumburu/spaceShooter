@@ -1,9 +1,8 @@
 #ifndef BOOCRAP_H
 #define BOOCRAP_H
+#include <bits/stdc++.h>
 
 // hello my pr1
-// hello my pr2
-
 class boocrap
 {
     int lol;
@@ -17,3 +16,15 @@ class boocrap
 //hello this is final
 
 #endif // BOOCRAP_H
+
+class Student {
+    int roll;
+    vector<string> subjects;
+    public:
+    void printSubjects() {
+        for (auto x: subjects) {
+            cout << x << endl;
+        }
+    }
+};
+
