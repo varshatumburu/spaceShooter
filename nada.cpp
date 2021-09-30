@@ -9,6 +9,10 @@ boocrap::boocrap()
       cout<<"I am  a banana"<<endl;
 }
 
+huehue::huehue() {
+      cout << "Hue hue" << endl;
+}
+
 int main() {
       cout << "Hello there." << endl;
       cout << "Are you a banana?" << endl;
