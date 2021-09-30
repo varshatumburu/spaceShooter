@@ -1,5 +1,6 @@
 #include "boocrap.h"
 #include<iostream>
+#include "nada.h"
 
 // Commenting for better reach
 
@@ -20,4 +21,6 @@ creator::creator() {
 int main() {
       cout << "Hello there." << endl;
       cout << "Are you a banana?" << endl;
+      Student x;
+      x.printSubjects();
 }
