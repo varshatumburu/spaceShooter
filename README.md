@@ -56,7 +56,7 @@ follow the Youtube video to see How I fared on ``spaceShooter`` a b c d
   - 2. bullet shoots
   - 3. player explosion
 - 3 lives per game
-- Fun to play :)
+- Fun to play ;)
 
 ## Controls
 
