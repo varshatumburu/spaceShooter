@@ -11,4 +11,5 @@ boocrap::boocrap()
 
 int main() {
       cout << "Hello there." << endl;
+      cout << "Are you a banana?" << endl;
 }
