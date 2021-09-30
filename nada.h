@@ -1,10 +1,9 @@
 #ifndef BOOCRAP_H
 #define BOOCRAP_H
 
-#hello my pr1
-#hello my pr2
+// hello my pr1
+// hello my pr2
 
-#hello my last pr
 class boocrap
 {
     int lol;
