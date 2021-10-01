@@ -5,7 +5,8 @@
 // hello my pr1
 class boocrap
 {
-    int lol; // this is funny, lol
+    int lol; 
+    // this is funny, lol
     public:
         boocrap() ;
 
