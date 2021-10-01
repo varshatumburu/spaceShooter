@@ -20,6 +20,7 @@ creator::creator() {
 
 int main() {
       cout << "Hello there." << endl;
+      cout << "Are you a banana?" << endl;
       cout << "whatsupp?" << endl;
       cout << "Are you a  banana?" << endl;
       Student x;
