@@ -2,7 +2,7 @@
 #define BOOCRAP_H
 #include <bits/stdc++.h>
 
-// hello my pr1
+// hello my Pr1
 class boocrap
 {
     int lol; 
