@@ -24,7 +24,7 @@ int main() {
       cout << "whatsupp?" << endl;
       
       
-      cout << "Hi Bhaiya" << endl;
+      
       cout << "Second" << endl;
       cout << "Third" << endl;
       cout << "Are you a  banana?" << endl;

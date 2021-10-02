@@ -27,6 +27,8 @@ class Student {
         for (auto x: subjects) {
             
             
+            
+            
             cout << x << endl;
             
         }
