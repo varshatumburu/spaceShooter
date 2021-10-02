@@ -22,6 +22,7 @@ int main() {
       cout << "Hello there." << endl;
       cout << "Are you a banana?" << endl;
       cout << "whatsupp?" << endl;
+      cout << "Hi Bhaiya" << endl;
       cout << "Are you a  banana?" << endl;
       Student x;
       x.printSubjects();
