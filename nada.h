@@ -14,7 +14,7 @@ class boocrap
 //hello this is pr1
 //hello this is pr2
 //hello this is pr3
-
+//hello this is pr3
 
 
 #endif // BOOCRAP_H
@@ -25,9 +25,6 @@ class Student {
     public:
     void printSubjects() {
         for (auto x: subjects) {
-            
-            
-            
             
             cout << x << endl;
             
