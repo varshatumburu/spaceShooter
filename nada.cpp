@@ -7,11 +7,11 @@
 using namespace std;
 boocrap::boocrap()
 {
-      cout<<"I am  a banana"<<endl;
+      cout<<"I am  a banana\n";
 }
 
 huehue::huehue() {
-      cout << "Hue hue" << endl;
+      cout << "Hue hue \n";
 }
 
 creator::creator() {
