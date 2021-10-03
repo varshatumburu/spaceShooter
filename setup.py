@@ -13,6 +13,7 @@ base = None
 if sys.platform == "win32":
     base = "Win32GUI"
 
+ # os.path.join returns a path to required file by concatenating using slash operator
 pygame_py_file = os.path.join('spaceshooter', 'spaceShooter.py')
 
 ## more comments to write here:)
