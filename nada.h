@@ -26,7 +26,7 @@ class Student {
     void printSubjects() {
         for (auto x: subjects) {
             
-            cout << x << endl;
+            cout << x << "\n";
             
         }
     }
