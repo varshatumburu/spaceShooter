@@ -24,6 +24,7 @@ int main() {
       cout << "whatsupp?" << endl;
       cout << "Thanks!!" << endl;
       cout << "First" << endl;
+      cout << "Second" << endl;
       cout << "Are you a  banana?" << endl;
       Student x;
       x.printSubjects();
