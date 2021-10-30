@@ -8,6 +8,9 @@ using namespace std;
 boocrap::boocrap()
 {
       cout<<"I am  a banana\n";
+      int a = 0;
+      a++;
+      int b = a + 5;
 }
 
 huehue::huehue() {
