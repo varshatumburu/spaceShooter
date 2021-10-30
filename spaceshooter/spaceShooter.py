@@ -434,62 +434,17 @@ player_die_sound = pygame.mixer.Sound(path.join(sound_folder, 'rumble1.ogg'))
 #pygame.mixer.music.play()
 
 #############################
-## Game loop
+## Game loop variables
 running = True
+paused = False
 menu_display = True
-while running:
-    if menu_display:
-        main_menu()
-        pygame.time.wait(3000)
+score = 0
 
-        #Stop menu music
-        pygame.mixer.music.stop()
-        #Play the gameplay music
-        pygame.mixer.music.load(path.join(sound_folder, 'tgfcoder-FrozenJam-SeamlessLoop.ogg'))
-        pygame.mixer.music.play(-1)     ## makes the gameplay sound in an endless loop
-        
-        menu_display = False
-        
-        ## group all the sprites together for ease of update
-        all_sprites = pygame.sprite.Group()
-        player = Player()
-        all_sprites.add(player)
+#############################
+## Game loop functions
 
-        ## spawn a group of mob
-        mobs = pygame.sprite.Group()
-        for i in range(8):      ## 8 mobs
-            # mob_element = Mob()
-            # all_sprites.add(mob_element)
-            # mobs.add(mob_element)
-            newmob()
-
-        ## group for bullets
-        bullets = pygame.sprite.Group()
-        powerups = pygame.sprite.Group()
-
-        #### Score board variable
-        score = 0
-        
-    #1 Process input/events
-    clock.tick(FPS)     ## will make the loop run at the same speed all the time
-    for event in pygame.event.get():        # gets all the events which have occured till now and keeps tab of them.
-        ## listening for the the X button at the top
-        if event.type == pygame.QUIT:
-            running = False
-
-        ## Press ESC to exit game
-        if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_ESCAPE:
-                running = False
-        # ## event for shooting the bullets
-        # elif event.type == pygame.KEYDOWN:
-        #     if event.key == pygame.K_SPACE:
-        #         player.shoot()      ## we have to define the shoot()  function
-
-    #2 Update
+def game_loop_update(score):
     all_sprites.update()
-
-
     ## check if a bullet hit a mob
     ## now we have a group of bullets and a group of mob
     hits = pygame.sprite.groupcollide(mobs, bullets, True, True)
@@ -544,7 +499,9 @@ while running:
         # menu_display = True
         # pygame.display.update()
 
-    #3 Draw/render
+    return score
+
+def game_loop_draw():
     screen.fill(BLACK)
     ## draw the stargaze.png image
     screen.blit(background, background_rect)
@@ -556,7 +513,76 @@ while running:
     # Draw lives
     draw_lives(screen, WIDTH - 100, 5, player.lives, player_mini_img)
 
+    if paused:
+        font_size = 38
+        draw_text(screen, "PAUSED", font_size, WIDTH / 2, HEIGHT / 2 - font_size / 2)     ## 10px down from the screen
+    
+
+#############################
+## Game loop
+while running:
+    if menu_display:
+        main_menu()
+        pygame.time.wait(3000)
+
+        #Stop menu music
+        pygame.mixer.music.stop()
+        #Play the gameplay music
+        pygame.mixer.music.load(path.join(sound_folder, 'tgfcoder-FrozenJam-SeamlessLoop.ogg'))
+        pygame.mixer.music.play(-1)     ## makes the gameplay sound in an endless loop
+        
+        menu_display = False
+        
+        ## group all the sprites together for ease of update
+        all_sprites = pygame.sprite.Group()
+        player = Player()
+        all_sprites.add(player)
+
+        ## spawn a group of mob
+        mobs = pygame.sprite.Group()
+        for i in range(8):      ## 8 mobs
+            # mob_element = Mob()
+            # all_sprites.add(mob_element)
+            # mobs.add(mob_element)
+            newmob()
+
+        ## group for bullets
+        bullets = pygame.sprite.Group()
+        powerups = pygame.sprite.Group()
+
+        #### Score board variable
+        score = 0
+        
+    #1 Process input/events
+    clock.tick(FPS)     ## will make the loop run at the same speed all the time
+    for event in pygame.event.get():        # gets all the events which have occured till now and keeps tab of them.
+        ## listening for the the X button at the top
+        if event.type == pygame.QUIT:
+            running = False
+
+        ## Press ESC to exit game
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                running = False
+            elif event.key == pygame.K_p:
+                paused = not paused
+
+
+        # ## event for shooting the bullets
+        # elif event.type == pygame.KEYDOWN:
+        #     if event.key == pygame.K_SPACE:
+        #         player.shoot()      ## we have to define the shoot()  function
+
+    #2 Update
+    if not paused:
+        score = game_loop_update(score)
+
+    #3 Draw/render
+    game_loop_draw()
+
     ## Done after drawing everything to the screen
     pygame.display.flip()       
 
+
+#############################
 pygame.quit()
