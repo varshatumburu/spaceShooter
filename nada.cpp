@@ -18,7 +18,8 @@ huehue::huehue() {
 }
 
 creator::creator() {
-      cout << "This is the creator space." << endl;
+      cout << "This is the creator space. \n Initialising space and building ship" << endl;
+      int ship_lives = 3;
 }
 
 int main() {
