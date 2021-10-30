@@ -29,5 +29,9 @@ class Student {
             
         }
     }
+    
+    int getroll(){
+        return roll;
+    }
 };
 
