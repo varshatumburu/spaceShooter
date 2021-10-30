@@ -20,8 +20,13 @@ class boocrap
 
 class Student {
     int roll;
+    string name;
     vector<string> subjects; // a vector array of strings of subjects
     public:
+    void student(){
+        cout << "Enter your name : ";
+        cin >> name;
+    }
     void printSubjects() {
         for (auto x: subjects) {
             
