@@ -26,6 +26,7 @@ int main() {
       cout << "First" << endl;
       cout << "Final" << endl;
       cout << "Are you a  banana?" << endl;
+      cout << "Adding fpow and gcd turn by turn..." << endl;
       Student x;
       x.printSubjects();
 }
