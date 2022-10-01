@@ -4,6 +4,24 @@
 
 // Commenting for better reach
 
+int goodPerson(){
+      string i = "GoodPerson";
+      string u = "BadPerson";
+      
+      int myGoodness = 22;
+      int urGoodness = 21;
+      
+      if(myGoodness > urGoodness){
+            cout<<"HEHE I WON";
+            return 1;
+      }
+      else{
+            cout<<"DON'T BE HAPPY< I LET YOU WIN";
+            return 0;
+      }
+     
+}
+
 using namespace std;
 boocrap::boocrap()
 {
