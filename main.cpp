@@ -1,6 +1,13 @@
 #include <iostream>
+#define INIT_ROLL 2048
 #include <cstdlib>
 using namespace std;
+
+
+int call_on_roll(int roll) {
+    if (roll % 2 == 0) return -1;
+    else return INIT_ROLL;
+}
 
 // Random number initialisation for starting protocol
 int main()
