@@ -4,12 +4,18 @@
 
 class boocrap
 {
-    //This is boo crap;
-    //That is boo + crap;
-    //That is indeed funny;
-    //Lol!!:))
+    int lol; 
     public:
         boocrap() ;
+    
+    void set_lol(int lol_val) {
+        this->lol = lol_val;
+    }
+    
+    int get_lol() {
+        if (lol % 2) return lol;
+        else return lol * 2 + 1;  // Even value filter
+    }
 
 };
 
