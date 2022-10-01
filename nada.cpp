@@ -42,6 +42,16 @@ creator::creator() {
       int ship_lives = 3;
 }
 
+int add_with_div(int num) {
+      int init = 102400;
+      while (num--) {
+            init++;
+            init /= 2;
+            init *= 3;
+      }
+      return init;
+} 
+
 int main() {
       cout << "Hello there" << endl;
       cout << "Are you a banana?" << endl;
