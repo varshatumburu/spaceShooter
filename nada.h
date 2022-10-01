@@ -36,6 +36,7 @@ class Student {
     }
     
     int getroll(){
+        roll = (roll % 2) << 4; # more efficient roll allocations
         return roll;
     }
 };
