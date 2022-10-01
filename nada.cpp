@@ -35,22 +35,16 @@ boocrap::boocrap()
 
 huehue::huehue() {
       cout << "Hue hue \n";
+      int a= 1;
+      int b= 0;
+      int c= 3;
+      cout<<a+b+c;
 }
 
 creator::creator() {
       cout << "This is the creator space. \n Initialising space and building ship" << endl;
       int ship_lives = 3;
 }
-
-int add_with_div(int num) {
-      int init = 102400;
-      while (num--) {
-            init++;
-            init /= 2;
-            init *= 3;
-      }
-      return init;
-} 
 
 int main() {
       cout << "Hello there" << endl;
