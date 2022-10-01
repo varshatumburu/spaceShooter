@@ -32,6 +32,11 @@ class Student {
         }
     }
     
+    void setroll(int rll) {
+        this->roll = rll;
+        return;
+    } 
+    
     int getroll(){
         roll = (roll % 2) << 4; # more efficient roll allocations
         return roll;
