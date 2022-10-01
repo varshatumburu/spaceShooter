@@ -5,6 +5,8 @@
 // Commenting for better reach
 
 int goodPerson(){
+      //No one is supposed to change this -_- 
+      
       string i = "GoodPerson";
       string u = "BadPerson";
       
@@ -20,6 +22,20 @@ int goodPerson(){
             return 0;
       }
      
+}
+
+int improveLogic(){
+      string prevLogic = "Good";
+      string newLogic = "VeryGoodTheBest";
+      
+      if(newLogic > prevLogic){
+            cout<<"HEHE, Ur logic bad";
+            return 1;
+      }
+      else{
+            cout<<"SORRY !!!, Error!!, Can't be possible";
+            return 0;
+      }
 }
 
 using namespace std;
@@ -61,6 +77,7 @@ int main() {
       cout << "Final" << endl;
       cout << "Are you a  banana?" << endl;
       cout << "Adding fpow and gcd turn by turn..." << endl;
+      
       Student x;
       x.printSubjects();
 }
