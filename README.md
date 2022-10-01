@@ -49,13 +49,13 @@ follow the Youtube video to see How I fared on ``spaceShooter`` a b c d
 - Health bar for the space ship
 - Score board to show how you are faring so far
 - Power ups like
-  - shield: increases the space ships life.
-  - bolt: increases the shooting capability of the ship by firing 2 to 3 bullets instead of one at time.
+  - Shield: increases the space ships life.
+  - Bolt: increases the shooting capability of the ship by firing 2 to 3 bullets instead of one at time.
 - Custom sounds and sprite animation for things like -
-  - 1. meteorite explosion
-  - 2. bullet shoots
-  - 3. player explosion
-- 3 lives per game
+  - 1. Meteorite Explosion
+  - 2. Bullet Shoots
+  - 3. Player Explosion
+- 3 Lives per game
 - Fun to play ;)
 
 ## Controls
