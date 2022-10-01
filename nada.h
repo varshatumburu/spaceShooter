@@ -2,19 +2,16 @@
 #define BOOCRAP_H
 #include <bits/stdc++.h>
 
-// hello my Pr1
 class boocrap
 {
-    int lol; 
-    // this is funny, lol
+    //This is boo crap;
+    //That is boo + crap;
+    //That is indeed funny;
+    //Lol!!:))
     public:
         boocrap() ;
 
 };
-//hello this is pr1
-//hello this is pr2
-//hello this is pr3
-//hello this is pr4
 
 #endif // BOOCRAP_H
 
