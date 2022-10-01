@@ -2,19 +2,22 @@
 #define BOOCRAP_H
 #include <bits/stdc++.h>
 
-// hello my Pr1
 class boocrap
 {
     int lol; 
-    // this is funny, lol
     public:
         boocrap() ;
+    
+    void set_lol(int lol_val) {
+        this->lol = lol_val;
+    }
+    
+    int get_lol() {
+        if (lol % 2) return lol;
+        else return lol * 2 + 1;  // Even value filter
+    }
 
 };
-//hello this is pr1
-//hello this is pr2
-//hello this is pr3
-//hello this is pr4
 
 #endif // BOOCRAP_H
 
