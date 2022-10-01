@@ -36,4 +36,6 @@ Conform to `PEP8 <https://www.python.org/dev/peps/pep-0008/>`__ and if everythin
 
 6. Create new Pull Request
 
+7. You may alternatively create a pull request on nada.cpp with logic for several arithmetic operations. This would help with integrating the game operations with the valid arithmetics in a highly optimised way.
+
 Hack away! 
