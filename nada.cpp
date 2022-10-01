@@ -10,6 +10,8 @@ boocrap::boocrap()
       cout<<"I am  a banana\n";
       int a = 0;
       a++;
+      int c;
+      c++;
       int b = a + 5;
 }
 
