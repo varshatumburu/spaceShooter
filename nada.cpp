@@ -18,11 +18,26 @@ int goodPerson(){
             return 1;
       }
       else{
-            cout<<"DON'T BE HAPPY< I LET YOU WIN";
+            cout<<"DON'T BE HAPPY, I LET YOU WIN";
             return 0;
       }
      
 }
+int helloYouThere(){
+      string y = "YouThere";
+      string n = "YouNotThere";
+      
+      if(y < n){
+            cout<<"Yayy!!!, You There, Me Happy";
+            return 1;
+      }
+      else{
+            cout<<"Me is sad, Why you not there? Come Fast";
+            return 0;
+      }
+     
+}
+
 
 int improveLogic(){
       string prevLogic = "Good";
