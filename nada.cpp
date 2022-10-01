@@ -4,6 +4,18 @@
 
 // Commenting for better reach
 
+void changeMeAsMuchAsYouWant(){
+      
+      int hello;
+      int mello;
+      int jello;
+      //Hey this is dynamic 
+      //Get hello mello jello
+      
+      hello=1,mello=2,jello=3;
+      //LOl jello is highest! Huehuehue;
+}
+
 int goodPerson(){
       //No one is supposed to change this -_- 
       
@@ -23,6 +35,7 @@ int goodPerson(){
       }
      
 }
+
 int helloYouThere(){
       string y = "YouThere";
       string n = "YouNotThere";
