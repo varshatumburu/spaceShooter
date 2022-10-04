@@ -15,7 +15,9 @@ int sum (int x, int y) {
     cout << x+y;
 }
 
+// subtraction operation
 int subtract (int x, int y) {
+    
     cout << x-y;
     
 }
