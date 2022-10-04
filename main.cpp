@@ -19,4 +19,8 @@ int main()
     
     Student sde = Student();
     cout << call_on_roll(sde.getroll()) << endl;  // Make a successful call on student roll
+    
+    for(int i=1;i<=25;i++)
+    cout<<1 + i<<"\n";
 }
+
