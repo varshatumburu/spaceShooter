@@ -66,6 +66,21 @@ int improveLogic(){
       }
 }
 
+
+int whyMunich (){
+      int x = 1;
+      int y = 10";
+      
+      if(y> x){
+            cout<<"Better Savings";
+            return 1;
+      }
+      else{
+            cout<<"No money.";
+            return 0;
+      }
+}
+
 using namespace std;
 boocrap::boocrap()
 {
@@ -89,6 +104,8 @@ creator::creator() {
       cout << "This is the creator space. \n Initialising space and building ship" << endl;
       int ship_lives = 3;
 }
+
+
 
 int main() {
       cout << "Hello there" << endl;
