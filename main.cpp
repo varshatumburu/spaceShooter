@@ -15,6 +15,11 @@ int sum (int x, int y) {
     cout << x+y;
 }
 
+int subtract (int x, int y) {
+    cout << x-y;
+    
+}
+
 // Random number initialisation for starting protocol
 int main()
 {
