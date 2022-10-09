@@ -16,6 +16,12 @@ void changeMeAsMuchAsYouWant(){
       //LOl jello is highest! Huehuehue;
 }
 
+int goTo(int k){
+      if(k==1)changeMeAsMuchYouWant();
+      else if(k==2)goodPerson();
+      else helloYouThere();
+}
+
 int goodPerson(){
       //No one is supposed to change this -_- 
       
