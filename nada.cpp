@@ -81,13 +81,11 @@ int whyMunich (){
       }
 }
 
-int findFitness(vector<int> a, double b){
-      int n = a.size();
-      double fitness = 0;
-      for(int i=0;i<n;i++){
-            fitness += a[i]/b;
-      }
-      return fitness;      
+int decidePlace(int offerMoney){
+      if(offerMoney > 10000000)
+            return 1;
+      else
+            return 0;
 }
 
 using namespace std;
