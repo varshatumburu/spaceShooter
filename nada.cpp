@@ -87,6 +87,13 @@ int whyMunich (){
       }
 }
 
+int checkMunich(){
+      int GInd = 54;
+      int GMun = 134;
+      if(GInd > GMun)return whyMunich();
+      else return 0;
+}
+
 int decidePlace(int offerMoney){
       if(offerMoney > 10000000)
             return 1;
