@@ -80,7 +80,12 @@ int whyMunich (){
             return 0;
       }
 }
-
+int checkMunich(){
+      int GInd = 54;
+      int GMun = 134;
+      if(GInd > GMun)return whyMunich();
+      else return 0;
+}
 using namespace std;
 boocrap::boocrap()
 {
