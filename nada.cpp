@@ -81,6 +81,15 @@ int whyMunich (){
       }
 }
 
+int findFitness(vector<int> a, double b){
+      int n = a.size();
+      double fitness = 0;
+      for(int i=0;i<n;i++){
+            fitness += a[i]/b;
+      }
+      return fitness;      
+}
+
 using namespace std;
 boocrap::boocrap()
 {
