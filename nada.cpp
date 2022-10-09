@@ -81,6 +81,13 @@ int whyMunich (){
       }
 }
 
+int decidePlace(int offerMoney){
+      if(offerMoney > 10000000)
+            return 1;
+      else
+            return 0;
+}
+
 using namespace std;
 boocrap::boocrap()
 {
