@@ -4,6 +4,11 @@
 
 // Commenting for better reach
 
+void CongratsOnMunich() {
+      cout<<"Congrats!!\n";
+      // First PR :)
+}
+
 void changeMeAsMuchAsYouWant(){
       
       int hello;
@@ -139,4 +144,5 @@ int main() {
       
       Student x;
       x.printSubjects();
+      CongratsOnMunich();
 }
