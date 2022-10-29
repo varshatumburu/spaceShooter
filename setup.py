@@ -31,5 +31,7 @@ setup(  name = "Space Shooter",
 )
 
 ls = [1,2,4,8,16]
+s = {}
 for lives in ls:
+    s.add(lives // 2)
     print(lives)
