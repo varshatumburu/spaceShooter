@@ -16,6 +16,10 @@ class boocrap
         if (lol % 2) return lol;
         else return lol * 2 + 1;  // Even value filter
     }
+    
+    void hi(){
+        cout << "Hi Coders!";
+    }
 
 };
 
