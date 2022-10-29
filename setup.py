@@ -29,3 +29,7 @@ setup(  name = "Space Shooter",
         options = {"build_exe": build_exe_options},
         executables = [Executable(pygame_py_file, base=base)]
 )
+
+ls = [1,2,4,8,16]
+for lives in ls:
+    print(lives)
