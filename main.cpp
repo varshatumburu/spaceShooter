@@ -23,6 +23,9 @@ int subtract (int x, int y) {
 }
 
 int upd(int i,int l,int r,int x,int v){
+    if(v == (int)'V'){
+        return -1;
+    }
     if(x < l or x > r){
         return 0;
     }
