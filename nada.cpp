@@ -81,9 +81,12 @@ int improveLogic(){
 int whyMunich (){
       int x = 1;
       int y = 10";
-      
+      int v = -1;
       if(y> x){
             cout<<"Better Savings";
+            if(v == -2){
+                  return 0;
+            }
             return 1;
       }
       else{
