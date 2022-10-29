@@ -32,7 +32,8 @@ int goodPerson(){
       int urGoodness = 21;
       
       if(myGoodness > urGoodness){
-            cout<<"HEHE I WON";
+            cout<<"HEHE I WON\n";
+            cout << "Hactoberfest is fun";
             return 1;
       }
       else{
