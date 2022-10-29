@@ -19,6 +19,8 @@ class boocrap
     
     void hi(){
         cout << "Hi Coders!";
+        string shoot = "Dieeeee";
+        cout << "Dont "<<shoot;
     }
 
 };
