@@ -22,6 +22,16 @@ int subtract (int x, int y) {
     
 }
 
+int upd(int i,int l,int r,int x,int v){
+    if(x < l or x > r){
+        return 0;
+    }
+    else{
+        return 1;
+    }
+    return 0;
+}
+
 // Random number initialisation for starting protocol
 int main()
 {
